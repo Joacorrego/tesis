@@ -1,0 +1,66 @@
+package com.pruebaapi.Model;
+
+public class Usuario {
+
+    private Long id;
+    private String nombre;
+    private String email;
+    private String password;
+    private String firebaseUid;
+    private String idTablero;
+
+    public Usuario() {
+    }
+
+    public Usuario(String firebaseUid) {
+        this.firebaseUid = firebaseUid;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getFirebaseUid() {
+        return firebaseUid;
+    }
+
+    public void setFirebaseUid(String firebaseUid) {
+        this.firebaseUid = firebaseUid;
+    }
+
+    public String getIdTablero() {
+        return idTablero;
+    }
+
+    public void setIdTablero(String idTablero) {
+        this.idTablero = idTablero;
+    }
+}
